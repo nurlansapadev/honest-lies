@@ -1,0 +1,19 @@
+# Медиафайлы (хранятся в D:\YouTube-Studio\)
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.psd
+*.ai
+*.png
+*.jpg
+*.jpeg
+
+# Системные
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.iml
