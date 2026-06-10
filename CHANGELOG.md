@@ -23,7 +23,7 @@
 
 | #  | Тема | Шаблон | Рабочий заголовок |
 |----|------|--------|-------------------|
-| 01 | Iran 1953 | Операция | Operation Ajax: How the CIA Toppled Iran and Called It Freedom |
+| 01 | TBD | — | — |
 | 02 | Guatemala 1954 | Операция | How a Fruit Company Got the CIA to Overthrow a Country \| Guatemala 1954 |
 | 03 | Bay of Pigs 1961 | Операция | The Invasion That Was Doomed Before It Began \| Bay of Pigs |
 | 04 | Congo 1960–61 | Операция | The CIA's Plan to Poison an African Leader \| Congo |
@@ -35,13 +35,3 @@
 | 10 | Operation Paperclip | Кража | America's Space Race Was Built by Nazis \| Operation Paperclip |
 
 ---
-
-## EP001 — Iran 1953 (Operation Ajax)
-
-- **Шаблон:** Операция
-- **Тема:** ЦРУ свергает премьера Моссадыка, операция подаётся как спасение Ирана
-- **Статус:** В работе
-- **Дата публикации:** —
-- **Ссылка:** —
-- **Метрики (через 30 дней):** —
-- **Выводы:** —
