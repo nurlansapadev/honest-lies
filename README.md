@@ -10,12 +10,37 @@ Voice: Arny — a retired American who loves his country enough to want the trut
 
 Project structure
 honest-lies/
-├── CLAUDE.md          # Auto-loads context for Claude Code
-├── MEMORY.md          # Project decisions, mistakes, rules
-├── CHANGELOG.md       # Episode history and metrics
-├── channel/           # Arny's character, niche, style, keywords
-├── episodes/          # One folder per episode + templates
-├── production/        # Workflow, voice actor instructions
-└── artifacts/         # Links to media files (stored locally on D:\)
+├── CLAUDE.md
+├── MEMORY.md
+├── CHANGELOG.md
+├── README.md
+├── .gitignore
+│
+├── channel/
+│   ├── arny.md
+│   ├── niche.md
+│   ├── style-guide.md
+│   ├── keywords.md
+│   └── staff/
+│       ├── ed.md
+│       ├── nolan.md
+│       └── homer.md
+│
+├── episodes/
+│   ├── _template/
+│   │   ├── brief.md
+│   │   └── script.md
+│   └── ep001-iran-ajax/
+│       ├── ep001-iran-ajax.md   ← бриф
+│       └── script.md
+│
+├── production/
+│   ├── workflow.md              ← пустой
+│   ├── voice-actor.md          ← пустой
+│   └── music.md
+│
+└── artifacts/
+    └── README.md
+
 Channel
 youtube.com/@HonestLiesSpy
