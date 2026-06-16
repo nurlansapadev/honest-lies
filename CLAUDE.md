@@ -91,6 +91,7 @@ honest-lies/
 │   ├── new-episode.md           ← воркфлоу нового эпизода
 │   ├── voice-and-sound.md       ← голос Arny, ElevenLabs, теги
 │   ├── visuals-guide.md         ← видеоряд: источники, ритм, движение
+│   ├── illustrator-gem.md       ← инструкция Gem HonestLiesIllustrator (Nano Banana)
 │   └── music.md                 ← музыка и Suno
 │
 └── artifacts/
