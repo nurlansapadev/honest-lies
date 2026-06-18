@@ -94,6 +94,14 @@ honest-lies/
 │   ├── illustrator-gem.md       ← инструкция Gem HonestLiesIllustrator (Nano Banana)
 │   └── music.md                 ← музыка и Suno
 │
+├── deliverables/                ← финальные документы в git (контекст для чатов)
+│   ├── _template/
+│   │   ├── digest.md            ← шаблон досье эпизода
+│   │   └── script-vo.md         ← шаблон финального VO сценария
+│   └── ep-NNN-slug/
+│       ├── digest.md            ← досье: факты, зазор, персонажи, источники
+│       └── script-vo.md         ← финальный EN сценарий для ElevenLabs
+│
 └── artifacts/
     └── README.md
 ```
