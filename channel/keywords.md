@@ -5,7 +5,9 @@
 
 espionage history, intelligence history, declassified files, covert operations,
 deception history, propaganda history, industrial espionage, information warfare,
-disinformation, psychological warfare, dark history, spy documentary
+disinformation, psychological warfare, dark history, spy documentary, 
+surveillance state documentary, dark history, cold war espionage, 
+supply chain attack, hardware exploit
 
 ## Базовый набор тегов (на каждое видео)
 
