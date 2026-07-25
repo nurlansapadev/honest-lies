@@ -17,22 +17,13 @@
 
 ---
 
-## План: первые 10 эпизодов
+## Выбор тем
 
-> Утверждён июнь 2026. Порядок производства может меняться. Детальная запись по каждому заводится при старте работы над эпизодом.
+> План «первые 10 эпизодов» отменён 25.07.2026. Это был список операций ЦРУ времён Холодной войны — он противоречил углу канала.
 
-| #  | Тема | Шаблон | Рабочий заголовок |
-|----|------|--------|-------------------|
-| 01 | TBD | — | — |
-| 02 | Guatemala 1954 | Операция | How a Fruit Company Got the CIA to Overthrow a Country \| Guatemala 1954 |
-| 03 | Bay of Pigs 1961 | Операция | The Invasion That Was Doomed Before It Began \| Bay of Pigs |
-| 04 | Congo 1960–61 | Операция | The CIA's Plan to Poison an African Leader \| Congo |
-| 05 | Castro / Mongoose | Операция | The Exploding Cigar Was Real: The CIA's War on Castro |
-| 06 | Chile 1973 | Операция | How to Topple a Democracy by 'Making the Economy Scream' \| Chile 1973 |
-| 07 | Gulf of Tonkin 1964 | Ложь | The Attack That Never Happened Started a War \| Gulf of Tonkin |
-| 08 | Operation Mockingbird | Ложь | When the CIA Owned the Newsroom \| Operation Mockingbird |
-| 09 | Operation Northwoods 1962 | Ложь | The Pentagon Plan to Fake Terror Attacks on Americans \| Operation Northwoods |
-| 10 | Operation Paperclip | Кража | America's Space Race Was Built by Nazis \| Operation Paperclip |
+Тема берётся по железному закону из `channel/niche.md` (зазор + механика обмана + голос Arny + масштаб), а не по стране и не по эпохе. Холодная война — один из пластов наравне с корпоративным и технологическим шпионажем, финансовыми аферами, патентными войнами и информационными операциями. Два подряд эпизода из одного пласта — сигнал, что канал сползает в нишу «про ЦРУ».
+
+Запись по эпизоду заводится здесь при старте работы над ним.
 
 ---
 

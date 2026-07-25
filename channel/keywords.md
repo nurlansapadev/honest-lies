@@ -3,10 +3,10 @@
 ## Ключевые слова канала
 *(YouTube Studio → Настройки → Канал → Ключевые слова)*
 
+deception history, disinformation, psychological warfare, propaganda history,
+industrial espionage, information warfare, corporate espionage, financial fraud history,
 espionage history, intelligence history, declassified files, covert operations,
-deception history, propaganda history, industrial espionage, information warfare,
-disinformation, psychological warfare, dark history, spy documentary, 
-surveillance state documentary, dark history, cold war espionage, 
+dark history, spy documentary, surveillance state documentary,
 supply chain attack, hardware exploit
 
 ## Базовый набор тегов (на каждое видео)
@@ -50,10 +50,13 @@ media control, narrative control, fake news history, influence campaign
 
 ## Точечные теги под конкретное видео
 
-- *Люди:* Kim Philby, Aldrich Ames, Klaus Fuchs, Rudolf Abel, Cambridge Five
-- *Службы:* CIA, KGB, MI6, Stasi, GRU, Mossad
-- *Операции:* Operation Ajax, Gulf of Tonkin, Operation Mockingbird, Operation INFEKTION, Walker spy ring
-- *Места:* Iran, Berlin, Vietnam, Congo, Moscow
+Ставятся под конкретный эпизод, из того пласта, к которому он относится. Пласты равноправны — набор ниже не приоритет, а примеры.
+
+- *Разведка:* Kim Philby, Aldrich Ames, Klaus Fuchs, Cambridge Five, CIA, KGB, MI6, Stasi, Mossad, Operation Ajax, Operation Mockingbird, Gulf of Tonkin
+- *Корпорации и технологии:* industrial espionage case, stolen patent, trade secret theft, corporate spying, technology race
+- *Деньги и рынки:* wall street fraud, analyst conflict of interest, dot com bubble, market manipulation, accounting fraud
+- *Информационные операции:* influence campaign, forged document, media manipulation, planted story, active measures
+- *Места и эпохи:* ставятся по эпизоду (Iran, Berlin, Vietnam, Wall Street, Silicon Valley) — не тянуть Берлин в эпизод про биржу
 
 ## Приоритетные ключи для заголовков и описаний
 
@@ -63,12 +66,13 @@ media control, narrative control, fake news history, influence campaign
 | ⭐ psychological warfare | ~24 500 | 45 | широкая ниша |
 | ⭐ propaganda history | — | низкая | уточнить объём |
 | ⭐ industrial espionage | — | низкая | уточнить объём |
-| cold war espionage | ~9 800 | 29.1 | точечно, не как главный |
 | declassified files | ~7 300 | низкая | хорошо для описания |
 | information warfare | — | — | уточнить |
-| cold war propaganda | ~5 300 | 33.9 | для CW-эпизодов |
+| corporate espionage | — | — | уточнить |
 
-⭐ — приоритет. Холодная война — частный случай, не якорь всего канала.
+⭐ — приоритет.
+
+**Холодная война.** Ключи `cold war espionage` (~9 800, конк. 29.1) и `cold war propaganda` (~5 300, конк. 33.9) держим в резерве: ставим только если эпизод действительно про тот период, и только вторым-третьим ключом. В заголовок канала, описание канала и базовый набор тегов они не идут. Причина — эти ключи тянут алгоритм в нишу «канал про Холодную войну», из которой потом не выбраться с эпизодом про биржу или патентную аферу.
 
 > ⚠ Объёмы по новым ключам (industrial espionage, propaganda history, information warfare) нужно проверить в VidIQ / Ahrefs — здесь стоят прочерки.
 
