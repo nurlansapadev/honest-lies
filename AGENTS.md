@@ -1,4 +1,4 @@
-# CLAUDE.md — Honest Lies YouTube Channel
+# AGENTS.md — Honest Lies YouTube Channel
 
 > Читай этот файл первым в каждой сессии. Затем читай файлы на которые он ссылается.
 
@@ -59,7 +59,7 @@ YouTube-канал **Honest Lies** — документалки о механи�
 ## Структура папок
 ```
 honest-lies/
-├── CLAUDE.md
+├── AGENTS.md
 ├── MEMORY.md
 ├── CHANGELOG.md
 ├── README.md
