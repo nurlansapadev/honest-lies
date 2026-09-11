@@ -158,7 +158,7 @@ Nurlan проверяет звуковые файлы → одобряет ил�
 Идёт по полям `queries` / `expect` / `prompt_ru` каждого шота, статус меняется
 `pending` → `found` / `blocked` / `rejected`.
 
-- **ENVATO / ARCHIVE** — сток и архивы, баланс источников по `visuals-guide.md`
+- **STOCK / ARCHIVE** — сток и архивы, баланс источников по `visuals-guide.md`
 - **GENERATE** — гравюра через Gem `HonestLiesIllustrator` (`production/illustrator-gem.md`).
   Каноническая строка стиля — `channel/style/gravura.md`.
   Перерисовка реального фото в гравюру (человек / авто / местность / предмет) —
