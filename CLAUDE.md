@@ -128,7 +128,9 @@ honest-lies/
 │   ├── new-episode.md           ← ВОРКФЛОУ: 16 фаз + карта файлов проекта
 │   ├── voice-and-sound.md       ← голос Arny, ElevenLabs, теги, нормализация (закон)
 │   ├── 11labs-v3-tags.md        ← справочник тегов v3 (подчинён voice-and-sound.md)
-│   ├── visuals-guide.md         ← видеоряд: схема шот-листа v3, источники, ритм
+│   ├── visuals-guide.md         ← видеоряд: источники, баланс, лица, ритм, движение
+│   ├── shot-list-rules.md       ← нарезка первичного шот-листа shots.json
+│   ├── shot-derivatives.md      ← производные листы: тайминг, архив, сток-видео, генерация, надписи
 │   ├── illustrator-gem.md       ← инструкция Gem HonestLiesIllustrator (Nano Banana)
 │   ├── music.md                 ← музыка и Suno
 │   └── useful_prompts/
