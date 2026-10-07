@@ -78,13 +78,19 @@ media control, narrative control, fake news history, influence campaign
 
 ## Формула заголовка («троянский конь»)
 
-Конкретный факт/имя + разрыв любопытства:
+> **Сменить академические заголовки на интригующие:** убрать из названий даты и сухие факты вроде `| Buenos Aires, 1960` или `| IBEX`. Заменить их парадоксом или вопросом, бьющим по эмоциям. (решение Nurlan, 07.10.2026)
+>
+> Финальную упаковку делает Video-Wrapper по своим правилам; здесь — только черновики ворот А и Б, и они не должны учить его обратному.
+
+Конкретный факт/имя + разрыв любопытства — **парадоксом или вопросом**, без хвоста `| место, год`:
 
 - «Operation Ajax: How the CIA Toppled Iran and Called It Freedom»
-- «The Lie That Started the Vietnam War | Gulf of Tonkin»
-- «The Clerk Who Handed Stalin the Atomic Bomb | Klaus Fuchs»
-- «The Currency Attack That Broke Britain | George Soros 1992»
-- «How One Accountant Unraveled a $500M Spy Program | Project IBEX»
+- «The Lie That Started the Vietnam War»
+- «Why Did a Clerk Hand Stalin the Atomic Bomb?»
+- «How One Man Broke the Bank of England in a Single Night»
+- «Who Killed Three Americans in Tehran — and Why Did the CIA Bury It?»
+
+❌ Академично (так больше не делаем): `The Blind Man Who Found Adolf Eichmann | Buenos Aires, 1960` · `… | Project IBEX` · `… | George Soros 1992` — дата и справочный хвост съедают видимые знаки и не добавляют интриги.
 
 ## Где теги реально работают
 

@@ -1,0 +1,19 @@
+ 1 -- Realistic photo prompts:
+Create a new, original photo inspired by the attached reference image.
+Use the reference ONLY as a guide for: composition and framing, camera angle, lighting direction and quality, color palette, mood, era and type of setting.
+Do NOT copy the reference pixel for pixel — re-shoot the scene as a fresh, original photograph.
+Format: 16:9 landscape, high resolution.
+Look: true photographic realism, as if shot on a professional full-frame camera with a 35mm lens. Natural light behavior, real depth of field, accurate textures and materials, subtle natural film grain. Sharp focus on the main subject.
+Clean frame: absolutely NO watermarks, NO logos, NO stock-agency marks, NO text, NO captions, NO timestamps, NO borders, NO signatures, NO UI elements. No compression artifacts, no noise blocks, no blur smears, no distorted hands or faces, no duplicated objects.
+
+People: if people appear, they must be anonymous, non-identifiable individuals — not recognizable real persons. Natural poses, realistic anatomy.
+
+Era: match the period  to 1980 s — clothing, objects, vehicles, architecture and technology must belong to that time.
+
+2 -- Realistic photo prompts As is:
+Generate a photorealistic, ultra-high-resolution exact replica of the provided reference image. Maintain the identical facial features, expression, pose, clothing, and background of the person in the reference. Remove all watermarks, stock photo text, logos, and visual artifacts. The final image must be a pristine, 8k resolution, studio-quality photograph with sharp focus, realistic skin texture, and perfect lighting, matching the original composition exactl
+
+
+3 -- Перегенрация человека:
+Generate a photorealistic, ultra-high-resolution exact replica of the provided reference image. Maintain the identical facial features, expression, pose, clothing, and background of the person in the reference. Remove all watermarks, stock photo text, logos, and visual artifacts. The final image must be a pristine, 8k resolution, studio-quality photograph with sharp focus, realistic skin texture, and perfect lighting, matching the original composition exactly
+
