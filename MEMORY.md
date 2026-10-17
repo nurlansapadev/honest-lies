@@ -230,7 +230,7 @@ Envato (цифра), Wikimedia (плёнка 40-х), USHMM (60-е), Nano Banana
 первоисточник — на машине Nurlan. Claude отдаёт готовый текст блоком в чат,
 Nurlan вставляет сам. Иначе расходятся две версии.
 
-**В Claude Code (локально, D:\YouTube-Studio\claude_projects\honest-lies-script) — можно
+**В Claude Code (локально, D:\YouTube-Studio\claude_projects\honest-lies) — можно
 и нужно:** Claude правит файлы напрямую, это та же рабочая копия на машине
 Nurlan, расхождению взяться неоткуда. Коммитит по просьбе; **push делает Nurlan**.
 
