@@ -11,9 +11,23 @@ People: if people appear, they must be anonymous, non-identifiable individuals �
 Era: match the period  to 1980 s — clothing, objects, vehicles, architecture and technology must belong to that time.
 
 2 -- Realistic photo prompts As is:
-Generate a photorealistic, ultra-high-resolution exact replica of the provided reference image. Maintain the identical facial features, expression, pose, clothing, and background of the person in the reference. Remove all watermarks, stock photo text, logos, and visual artifacts. The final image must be a pristine, 8k resolution, studio-quality photograph with sharp focus, realistic skin texture, and perfect lighting, matching the original composition exactl
+Generate a photorealistic, ultra-high-resolution exact replica of the provided reference image. Maintain the identical facial features, expression, pose, clothing, and background of the person in the reference. Remove all watermarks, stock photo text, logos, and visual artifacts. The final image must be a pristine, 8k resolution, studio-quality photograph with sharp focus, realistic skin texture, and perfect lighting, matching the original composition exactly
+
+2-1 -- Realistic photo prompts As is GENERAL:
+Generate a photorealistic, high-resolution exact replica of the provided reference image.  The final image must be a pristine, 8k resolution. Aspect ratio 16:9. Remove watermarks if exists
 
 
 3 -- Перегенрация человека:
 Generate a photorealistic, ultra-high-resolution exact replica of the provided reference image. Maintain the identical facial features, expression, pose, clothing, and background of the person in the reference. Remove all watermarks, stock photo text, logos, and visual artifacts. The final image must be a pristine, 8k resolution, studio-quality photograph with sharp focus, realistic skin texture, and perfect lighting, matching the original composition exactly
 
+
+4- похожий но другой результат
+A natural, high-quality cinematic photograph in a 16:9 widescreen format, based on the attached reference photograph
+Quality & Aesthetics: Captured with the natural look of 35mm film, with organic film grain, authentic color grading that matches the reference.
+
+5 - 95% похожесть в 16:9
+Exact 1-to-1 photographic replication of the attached reference image. Maintain 95% visual similarity with zero creative deviations, additions, or substitutions.
+Subjects: Preserve the exact individuals, candid poses, facial features, body language, and precise clothing details (colors, textures, text).
+Environment: Replicate the exact background, architecture, objects, and weather in their original placement, scale, and perspective. Maintain the exact original framing and camera angle.
+Style: Match the original photographic quality, authentic film grain, vintage color grading, and natural lighting. Avoid modern digital enhancements or artificial sharpness. Strict pixel-level fidelity required.
+Aspect ratio 16:9. Remove watermarks if exists.
