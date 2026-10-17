@@ -8,9 +8,9 @@
 
 Создаёт D:/YouTube-Studio/production/honest-lies/ep-<N>/ :
     00-script/          ← всё сценарное: brief, ru/en-скрипты, sound-vo, 11-labs-voice,
-      shots/               udochka, ep-summary, script-vo, shots/*.json
-    01-VO/  02_Stock/  03_Generated/  04_Montage/  05_footage/  06_thumbnail/
-и кладёт в 00-script шаблоны из episodes/_template/ и deliverables/_template/.
+      shots/               udochka, ep-summary, vo-whisper, shots/*.json
+    01_vo/  02_characters/  03_generated/  04_music/  05_footage/  06_montage/  07_thumbnail/
+и кладёт в 00-script шаблоны из production/templates/.
 Существующую папку не трогает — только досоздаёт недостающее, файлы не перезаписывает.
 """
 import os
@@ -22,8 +22,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 PRODUCTION = Path(os.environ.get("HL_PRODUCTION", "D:/YouTube-Studio/production/honest-lies"))
 ROOT = Path(__file__).resolve().parents[2]
-TEMPLATES = [ROOT / "episodes" / "_template", ROOT / "deliverables" / "_template"]
-MEDIA = ["01-VO", "02_Stock", "03_Generated", "04_Montage", "05_footage", "06_thumbnail"]
+TEMPLATES = [ROOT / "production" / "templates"]
+MEDIA = ["01_vo", "02_characters", "03_generated", "04_music", "05_footage", "06_montage", "07_thumbnail"]
 
 
 def main():

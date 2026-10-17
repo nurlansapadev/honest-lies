@@ -32,14 +32,12 @@ happened. The spine is not a country or an era — it's the **mechanism of the l
 
 | Папка | Что там |
 |---|---|
-| `channel/` | Нарратор, подниша, ключи, стиль (`style/`), помощники (`staff/`) |
-| `production/` | Воркфлоу, голос и звук, видеоряд, музыка, промпты |
-| `episodes/` | Рабочие папки эпизодов (**не в git**) и заготовки тем в `next-idea/` |
-| `deliverables/_template/` | Шаблоны digest / script-vo — копируются в `ep-N\00-script\`. Артефакты эпизодов — в `D:\YouTube-Studio\production\honest-lies\ep-N\` |
-| `artifacts/` | Ссылки и заметки на медиа; сами файлы — в `D:\YouTube-Studio\` |
+| `channel/` | Кто и о чём: подниша, ключи, стиль (`style/`), нарратор и помощники (`staff/`) |
+| `episodes/next-idea/` | Что дальше: план и карточки будущих тем |
+| `production/` | Как делаем: воркфлоу, голос и звук, видеоряд, музыка, промпты, шаблоны (`templates/`), инструменты (`tools/`), LUT (`luts/`) |
 
-**Медиафайлы в репозиторий не попадают.** Исходники, проекты монтажа и рендеры
-живут локально в `D:\YouTube-Studio\[ep-folder]\`, здесь — только ссылки и заметки.
+**Артефакты эпизодов в репозиторий не попадают.** Сценарии, шот-листы, медиа и монтаж
+живут в `D:\YouTube-Studio\production\honest-lies\ep-N\` (папку создаёт `production/tools/new_episode.py`).
 
 ## Скиллы
 

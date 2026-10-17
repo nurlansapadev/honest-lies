@@ -17,7 +17,7 @@ YouTube-канал **Honest Lies** — документалки о механи�
 
 Языкастый 60-летний американец на пенсии. Патриот, но честный. Колючий снаружи, небезразличный внутри. Восхищается дерзостью операций, иронизирует над ложью, переводит казённые эвфемизмы на человеческий язык. Никогда не морализирует, не выносит приговоров, не уходит в партийность.
 
-Подробно: `channel/arny.md`
+Подробно: `channel/staff/arny.md`
 
 ---
 
@@ -111,49 +111,44 @@ honest-lies/
 ├── README.md
 ├── .gitignore
 │
-├── channel/
-│   ├── arny.md
+├── channel/                     ← КТО и О ЧЁМ: канал, голос, стиль, команда
 │   ├── niche.md
 │   ├── keywords.md
 │   ├── style/
 │   │   ├── style-guide.md
 │   │   ├── beats.md             ← 7 тактов, ритм, удержание
 │   │   ├── entry.md             ← заходы, такт 1
+│   │   ├── script-preferences.md ← вкус Nurlan из разборов v1 → final (читать до v1)
 │   │   ├── branding.md          ← логотип, цвета, типографика, титры (04), обложки (05)
 │   │   └── gravura.md           ← каноническая строка стиля гравюры
 │   └── staff/
-│       ├── ed.md
-│       ├── nolan.md
+│       ├── arny.md              ← нарратор
 │       ├── homer.md
 │       ├── lingo.md
+│       ├── ed.md
+│       ├── nolan.md
 │       └── voicer.md            ← звукорежиссёр, разметка под ElevenLabs
 │
 ├── episodes/
-│   ├── _template/
-│   │   ├── brief.md
-│   │   └── script.md
-│   ├── _template/ … (шаблоны для 00-script)
-│   └── next-idea/               ← план и карточки будущих тем (до фазы 1)
+│   └── next-idea/               ← ЧТО ДАЛЬШЕ: план и карточки будущих тем (до фазы 1)
 │
-├── production/
-│   ├── new-episode.md           ← ВОРКФЛОУ: 16 фаз + карта файлов проекта
-│   ├── voice-and-sound.md       ← голос Arny, ElevenLabs, теги, нормализация (закон)
-│   ├── 11labs-v3-tags.md        ← справочник тегов v3 (подчинён voice-and-sound.md)
-│   ├── visuals-guide.md         ← видеоряд: источники, баланс, лица, ритм, движение
-│   ├── shot-list-rules.md       ← нарезка первичного шот-листа shots.json
-│   ├── shot-derivatives.md      ← производные листы: тайминг, архив, сток-видео, генерация, надписи
-│   ├── illustrator-gem.md       ← инструкция Gem HonestLiesIllustrator (Nano Banana)
-│   ├── music.md                 ← музыка и Suno
-│   ├── tools/                   ← new_episode.py (папка эпизода), transcribe.py (Whisper)
-│   └── useful_prompts/
-│       ├── README.md
-│       ├── source-regenerate.txt  ← перевод фото в гравюру (4 типа объекта)
-│       └── thumbnail-prompt.txt   ← обложка в два шага
-│
-├── deliverables/_template/      ← шаблоны digest.md / script-vo.md (копируются в 00-script)
-│
-└── artifacts/
-    └── README.md
+└── production/                  ← КАК ДЕЛАЕМ: воркфлоу, правила, шаблоны, инструменты
+    ├── new-episode.md           ← ВОРКФЛОУ: 16 фаз + карта файлов проекта
+    ├── voice-and-sound.md       ← голос Arny, ElevenLabs, теги, нормализация (закон)
+    ├── 11labs-v3-tags.md        ← справочник тегов v3 (подчинён voice-and-sound.md)
+    ├── visuals-guide.md         ← видеоряд: источники, баланс, лица, ритм, движение
+    ├── shot-list-rules.md       ← нарезка первичного шот-листа shots.json
+    ├── shot-derivatives.md      ← производные листы: тайминг, архив, сток-видео, генерация, надписи
+    ├── illustrator-gem.md       ← инструкция Gem HonestLiesIllustrator (Nano Banana)
+    ├── music.md                 ← музыка и Suno
+    ├── cast-registry.md         ← реестр cast.json: люди, места (координаты), объекты — после ru-script-final
+    ├── templates/               ← brief.md, ru-script-v1.txt, ep-summary.md → копируются в 00-script
+    ├── tools/                   ← new_episode.py (папка эпизода), transcribe.py (Whisper)
+    ├── luts/                    ← LUT канала + make_lut.py
+    └── useful_prompts/
+        ├── README.md
+        ├── source-regenerate.txt  ← перевод фото в гравюру (4 типа объекта)
+        └── thumbnail-prompt.txt   ← обложка в два шага
 ```
 
 ---
@@ -163,9 +158,9 @@ honest-lies/
 **Этот проект — штаб сценария (hl-script):** правила, план эпизодов, идеи, память. Отсюда начинается каждый новый эпизод. Артефактов эпизодов внутри нет.
 
 Рабочая папка эпизода — **`D:\YouTube-Studio\production\honest-lies\ep-N\`** (без нуля: `ep-8`). Создаёт её Claude на фазе 0: `python production/tools/new_episode.py N slug`.
-- `00-script\` — всё, что делает этот проект: brief, скрипты, sound-vo, 11-labs-voice, udochka, `shots\`, vo-whisper, script-vo, ep-summary. Структура — `production/new-episode.md`, «Файлы эпизода».
-- `01-VO\`, `02_Stock\`, `03_Generated\`, `05_footage\`, `06_thumbnail\` — медиа (Nurlan и его скрипты).
-- `04_Montage\`, `06_edit\`, `07_music\` — проект монтажа `VideoEditor_2.0`.
+- `00-script\` — всё, что делает этот проект: brief, скрипты, sound-vo, 11-labs-voice, clean-script (вход VideoEditor), udochka, `shots\`, vo-whisper, ep-summary. Структура — `production/new-episode.md`, «Файлы эпизода».
+- `01_vo\`, `02_characters\`, `03_generated\`, `04_music\`, `05_footage\`, `07_thumbnail\` — медиа (Nurlan и его скрипты).
+- `06_montage\` — проект монтажа `VideoEditor_2.0`.
 - Упаковка — `video-wrapper`.
 
 GitHub — только хранение версий правил. В git: правила, CHANGELOG, MEMORY, план и карточки тем.
@@ -178,11 +173,11 @@ GitHub — только хранение версий правил. В git: пр
 Примеры: «Ed, почисти язык», «Nolan, разбери структуру», «Homer, проверь факты», «Voicer, разметь такт».  
 При генерации сценария — молчат.
 
-Порядок работы над эпизодом: **Homer → (сценарий v1) → Homer (фактчек v1) → Nurlan правит → Lingo → Ed → Nolan → Voicer**
+Порядок работы над эпизодом: **Homer → (сценарий v1) → Homer (фактчек v1) → Nurlan правит (Homer точечно по новым фактам) → ru-script-final → Lingo → Ed → Nolan → Voicer**. После final Homer не работает.
 
 - **HOMER** (`channel/staff/homer.md`) — исследователь. Разведка темы, досье, зазор «версия vs реальность», кандидаты в жгучий вопрос. Потом — фактчек готового сценария.
 - **LINGO** (`channel/staff/lingo.md`) — транскреатор. Переводит RU→EN после утверждения сценария Nurlan. Переносит эффект, не слова.
-- **ED** (`channel/staff/ed.md`) — редактор. Чистит язык: естественность американского английского, несуразицы, конверсии и цифры, анахронизмы речи, повторы, ритм фраз и штампы машинного текста. Плюс **первый фильтр галлюцинаций** — помечает 🚩 места, которые выдают себя из текста (утверждение без источника, цитата без говорящего, псевдоточность, чтение мыслей); вердикт по ним выносит Homer.
+- **ED** (`channel/staff/ed.md`) — редактор. Чистит язык: естественность американского английского, несуразицы, конверсии и цифры, анахронизмы речи, повторы, ритм фраз и штампы машинного текста. Плюс **первый фильтр галлюцинаций** — помечает 🚩 места, которые выдают себя из текста (утверждение без источника, цитата без говорящего, псевдоточность, чтение мыслей); на EN после final флаг значит «вернуть формулировку к утверждённому RU», без новых проверок.
 - **NOLAN** (`channel/staff/nolan.md`) — монтажёр. Проверяет удержание: хук цепляет? 7 тактов на месте? вода вырезана? Расставляет визуальные метки. Стандарты видеоряда — `production/visuals-guide.md`.
 - **VOICER** (`channel/staff/voicer.md`) — звукорежиссёр. Размечает подачу под ElevenLabs: теги, паузы, регистры, музыка по тактам. Эталон голоса и настройки — `production/voice-and-sound.md`. Стиль канала — `channel/style/branding.md`.
 
