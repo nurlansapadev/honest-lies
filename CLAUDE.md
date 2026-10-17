@@ -132,8 +132,8 @@ honest-lies/
 │   ├── _template/
 │   │   ├── brief.md
 │   │   └── script.md
-│   ├── next-idea/               ← карточки заготовок будущих тем (до фазы 1)
-│   └── ep-NN-slug/              ← рабочие папки НЕ в git (.gitignore: episodes/ep-*/)
+│   ├── _template/ … (шаблоны для 00-script)
+│   └── next-idea/               ← план и карточки будущих тем (до фазы 1)
 │
 ├── production/
 │   ├── new-episode.md           ← ВОРКФЛОУ: 16 фаз + карта файлов проекта
@@ -144,18 +144,13 @@ honest-lies/
 │   ├── shot-derivatives.md      ← производные листы: тайминг, архив, сток-видео, генерация, надписи
 │   ├── illustrator-gem.md       ← инструкция Gem HonestLiesIllustrator (Nano Banana)
 │   ├── music.md                 ← музыка и Suno
+│   ├── tools/                   ← new_episode.py (папка эпизода), transcribe.py (Whisper)
 │   └── useful_prompts/
 │       ├── README.md
 │       ├── source-regenerate.txt  ← перевод фото в гравюру (4 типа объекта)
 │       └── thumbnail-prompt.txt   ← обложка в два шага
 │
-├── deliverables/                ← финальные документы в git (контекст для чатов)
-│   ├── _template/
-│   │   ├── digest.md
-│   │   └── script-vo.md
-│   └── ep-NN-slug/
-│       ├── ep-summary.md        ← передаточная записка эпизода (главный контекст)
-│       └── script-vo.md         ← финальный EN сценарий для ElevenLabs
+├── deliverables/_template/      ← шаблоны digest.md / script-vo.md (копируются в 00-script)
 │
 └── artifacts/
     └── README.md
@@ -163,14 +158,17 @@ honest-lies/
 
 ---
 
-## Артефакты эпизодов
+## Артефакты эпизодов — вне проекта (с 17.10.2026)
 
-Медиафайлы хранятся локально в `D:\YouTube-Studio\[ep-folder]\`:
-- `Исходники\` — архивное видео, фото, аудио от актёра
-- `Монтаж\` — проекты монтажа
-- `Результат\` — финальный файл, опубликованная версия
+**Этот проект — штаб сценария (hl-script):** правила, план эпизодов, идеи, память. Отсюда начинается каждый новый эпизод. Артефактов эпизодов внутри нет.
 
-В папке эпизода в этом проекте хранятся только **ссылки и заметки**, не сами файлы.
+Рабочая папка эпизода — **`D:\YouTube-Studio\production\honest-lies\ep-N\`** (без нуля: `ep-8`). Создаёт её Claude на фазе 0: `python production/tools/new_episode.py N slug`.
+- `00-script\` — всё, что делает этот проект: brief, скрипты, sound-vo, 11-labs-voice, udochka, `shots\`, vo-whisper, script-vo, ep-summary. Структура — `production/new-episode.md`, «Файлы эпизода».
+- `01-VO\`, `02_Stock\`, `03_Generated\`, `05_footage\`, `06_thumbnail\` — медиа (Nurlan и его скрипты).
+- `04_Montage\`, `06_edit\`, `07_music\` — проект монтажа `VideoEditor_2.0`.
+- Упаковка — `video-wrapper`.
+
+GitHub — только хранение версий правил. В git: правила, CHANGELOG, MEMORY, план и карточки тем.
 
 ---
 

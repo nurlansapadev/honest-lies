@@ -35,7 +35,7 @@ happened. The spine is not a country or an era — it's the **mechanism of the l
 | `channel/` | Нарратор, подниша, ключи, стиль (`style/`), помощники (`staff/`) |
 | `production/` | Воркфлоу, голос и звук, видеоряд, музыка, промпты |
 | `episodes/` | Рабочие папки эпизодов (**не в git**) и заготовки тем в `next-idea/` |
-| `deliverables/` | Финальные документы эпизодов — в git, как контекст для новых чатов |
+| `deliverables/_template/` | Шаблоны digest / script-vo — копируются в `ep-N\00-script\`. Артефакты эпизодов — в `D:\YouTube-Studio\production\honest-lies\ep-N\` |
 | `artifacts/` | Ссылки и заметки на медиа; сами файлы — в `D:\YouTube-Studio\` |
 
 **Медиафайлы в репозиторий не попадают.** Исходники, проекты монтажа и рендеры
