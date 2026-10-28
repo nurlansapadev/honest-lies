@@ -31,7 +31,7 @@
 ---
 
 ## Фаза 0 — Подготовка
-- [ ] **Поднять карточку темы:** строка в `episodes/content-plan.md` + `episodes/next-idea/<Тема>.md` (или кандидат из скана хайпа — `production/topic-search.md`). Карточка — сырьё и гипотеза, не каркас
+- [ ] **Поднять карточку темы:** строка в `episodes/content-plan.md` + `episodes/next-idea-cards/<Тема>.md` (или кандидат из скана хайпа — `production/topic-search.md`). Карточка — сырьё и гипотеза, не каркас
 - [ ] Включить **Web search** (иначе Homer копает по памяти)
 - [ ] Создать папку эпизода: `python production/tools/new_episode.py N slug` → `D:\YouTube-Studio\production\honest-lies\ep-N\`
 - [ ] **Ворота А** — до разведки
@@ -41,7 +41,7 @@
 - [ ] Хоть одно даёт **разрыв любопытства**, а не пересказ события?
 - [ ] Находятся 3 слова на превью?
 
-**Ни одного живого варианта — тема не берётся.** Карточка остаётся в `episodes/next-idea/` с пометкой почему. Ворота А отсеивают темы, ворота Б (фаза 2) — углы.
+**Ни одного живого варианта — тема не берётся.** Карточка остаётся в `episodes/next-idea-cards/` с пометкой почему. Ворота А отсеивают темы, ворота Б (фаза 2) — углы.
 
 ## Фаза 1 — Разведка (Homer + Nolan) → `channel/staff/homer.md`, `nolan.md`
 1. **Факты — много и широко** (Homer). Карточку проверить и далеко выйти за неё: первоисточники (суд, архивы, рассекреченное, мемуары, пресса эпохи), книги и исследования, свежие публикации. Хронология, люди, цифры, документы, нестыковки, яркие детали, «невозможные» факты. Цитата, не найденная в оригинале, не используется.
@@ -117,7 +117,7 @@ Nurlan выбирает кнопкой или правит словами. Да�
 - [ ] **`CHANGELOG.md`** — строка эпизода: рабочее название, слов EN, прогноз минут.
 - [ ] **Разбор `en-script-v1` → `en-script-final`** → `channel/style/script-preferences.md`: правки Nurlan, если были, иначе строка «0 правок» в журнал. Повторяется, когда Nurlan поправит final позже.
 - [ ] **Уроки сессии** — в `MEMORY.md`, по строке.
-- [ ] **Карточка темы** `episodes/next-idea/<Тема>.md` → `episodes/completed/`; строка эпизода из очереди `episodes/content-plan.md` удаляется, в «В работе» — тоже; тема в `channel/competitors/popular-topics.md` → статус «рассказано (EP-NN)».
+- [ ] **Карточка темы** `episodes/next-idea-cards/<Тема>.md` → `episodes/completed/`; строка эпизода из очереди `episodes/content-plan.md` удаляется, в «В работе» — тоже; тема в `channel/competitors/popular-topics.md` → статус «рассказано (EP-NN)».
 
 В чат — одна строка: «История записана: ep-NN, INDEX, CHANGELOG».
 
@@ -186,6 +186,6 @@ D:\YouTube-Studio\production\honest-lies\ep-N\
 | `production/topic-search.md` | до 0 | Поиск тем: плановый поток и хайп |
 | `channel/competitors/` | до 0 | Конкуренты: мастодонты, ориентиры, банк популярных тем |
 | `episodes/content-plan.md` | 0, 5 | Очередь эпизодов, следующий эпизод для удочки |
-| `episodes/next-idea/` · `completed/` | 0, 5 | Карточки тем; после передачи в VideoEditor — в `completed/` |
+| `episodes/next-idea-cards/` · `completed/` | 0, 5 | Карточки тем; после передачи в VideoEditor — в `completed/` |
 | `MEMORY.md` | всегда | Действующие решения |
 | `CHANGELOG.md` | 5, 8–9 | Эпизоды и метрики |

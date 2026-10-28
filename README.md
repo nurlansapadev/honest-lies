@@ -30,7 +30,7 @@ happened. The spine is not a country or an era — it's the **mechanism of the l
 | Папка | Что там |
 |---|---|
 | `channel/` | Кто и о чём: ниша, ключи, история канала (`history/`), стиль (`style/`), нарратор и помощники (`staff/`) |
-| `episodes/` | Что дальше: `content-plan.md`, карточки тем (`next-idea/`), отработанные карточки (`completed/`) |
+| `episodes/` | Что дальше: `content-plan.md`, карточки тем (`next-idea-cards/`), отработанные карточки (`completed/`) |
 | `production/` | Как делаем: воркфлоу, голос, видеоряд, музыка, реестр, шаблоны, `new_episode.py`, LUT, промпты |
 
 Артефакты эпизодов в репозиторий не попадают — они в `D:\YouTube-Studio\production\honest-lies\ep-N\`.
