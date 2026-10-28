@@ -15,7 +15,7 @@
 Один шот может попасть в несколько листов (архив и генерация как запасной вариант), а может не попасть ни в один — тогда его закрывает сток-фото из content-searcher.
 
 ```
-en-script-final.md
+en-script-final.txt
       │
       ▼
 shots.json  ─────────────── первичный: shot_no, scenario_text, depth
@@ -34,7 +34,7 @@ shots.json  ─────────────── первичный: sh
 
 | # | Лист | Когда | Кто делает | Зависит от |
 |---|---|---|---|---|
-| 1 | `shots.json` | фаза 9, по финальному EN | Claude | `en-script-final.md` |
+| 1 | `shots.json` | фаза 9, по финальному EN | Claude | `en-script-final.txt` |
 | 2 | `shots.photo.json` | сразу после первичного | скрипт `make_queries` → GAS → n8n | `shots.json` + `EPISODE_CONTEXT` |
 | 3 | `shots_timing.json` | после записи озвучки | Claude | `shots.json` + WAV |
 | 4 | `archive_shots.json` | после первичного | Claude | `shots.json` |

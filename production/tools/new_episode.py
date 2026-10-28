@@ -7,9 +7,8 @@
     python production/tools/new_episode.py 8 camp-century
 
 Создаёт D:/YouTube-Studio/production/honest-lies/ep-<N>/ :
-    00-script/          ← всё сценарное: brief, ru/en-скрипты, sound-vo, 11-labs-voice,
-      shots/               udochka, ep-summary, vo-whisper, shots/*.json
-    01_vo/  02_characters/  03_generated/  04_music/  05_footage/  06_montage/  07_thumbnail/
+    00-script/          ← всё сценарное: brief, en-script-v1/final, sound-vo, clean-script, udochka
+    01_vo/  02_characters/  03_generated/  04_music/  05_footage/  06_montage/  07_thumbnail/  09_final_assets/
 и кладёт в 00-script шаблоны из production/templates/.
 Существующую папку не трогает — только досоздаёт недостающее, файлы не перезаписывает.
 """
@@ -23,7 +22,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 PRODUCTION = Path(os.environ.get("HL_PRODUCTION", "D:/YouTube-Studio/production/honest-lies"))
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES = [ROOT / "production" / "templates"]
-MEDIA = ["01_vo", "02_characters", "03_generated", "04_music", "05_footage", "06_montage", "07_thumbnail"]
+MEDIA = ["01_vo", "02_characters", "03_generated", "04_music", "05_footage", "06_montage", "07_thumbnail", "09_final_assets"]
 
 
 def main():
@@ -33,7 +32,7 @@ def main():
     n, slug = int(sys.argv[1]), sys.argv[2]
     ep = PRODUCTION / f"ep-{n}"
     script = ep / "00-script"
-    (script / "shots").mkdir(parents=True, exist_ok=True)
+    script.mkdir(parents=True, exist_ok=True)
     for d in MEDIA:
         (ep / d).mkdir(exist_ok=True)
     copied = []
@@ -43,8 +42,7 @@ def main():
             if f.is_file() and not dst.exists():
                 shutil.copy2(f, dst)
                 copied.append(f.name)
-    (script / "SLUG.txt").write_text(f"ep-{n:02d}-{slug}\n", encoding="utf-8")
-    print(f"ok: {ep}")
+    print(f"ok: {ep} ({slug})")
     print("  шаблоны:", ", ".join(copied) if copied else "уже были")
 
 
