@@ -52,7 +52,7 @@ media control, narrative control, fake news history, influence campaign
 
 Ставятся под конкретный эпизод, из того пласта, к которому он относится. Пласты равноправны — набор ниже не приоритет, а примеры.
 
-- *Разведка:* Kim Philby, Aldrich Ames, Klaus Fuchs, Cambridge Five, CIA, KGB, MI6, Stasi, Mossad, Operation Ajax, Operation Mockingbird, Gulf of Tonkin
+- *Разведка:* **первыми — институт и роль:** CIA, FBI, KGB, Mossad, MI6, Stasi · double agent, mole, atomic spy, defector. Затем имена и операции: Kim Philby, Aldrich Ames, Klaus Fuchs, Cambridge Five, Operation Ajax, Operation Mockingbird, Gulf of Tonkin. Это правило эпизода про разведку — ключи и базовые теги канала от него не меняются.
 - *Корпорации и технологии:* industrial espionage case, stolen patent, trade secret theft, corporate spying, technology race
 - *Деньги и рынки:* wall street fraud, analyst conflict of interest, dot com bubble, market manipulation, accounting fraud
 - *Информационные операции:* influence campaign, forged document, media manipulation, planted story, active measures
@@ -78,17 +78,20 @@ media control, narrative control, fake news history, influence campaign
 
 ## Формула заголовка («троянский конь»)
 
-> **Не академично, а интригующе:** без дат и сухих хвостов вроде `| Buenos Aires, 1960` или `| IBEX` — парадокс или вопрос, бьющий по эмоциям. Ответ не угадывается по названию.
+> **Не академично, а интригующе:** без дат и сухих хвостов вроде `| Buenos Aires, 1960` или `| IBEX`. **Ответ не угадывается по названию.** Вопрос не обязателен.
 >
-> Финальную упаковку делает Video-Wrapper; здесь — черновики ворот А и Б.
+> Финальную упаковку делает Video-Wrapper; здесь — черновики ворот А (у темы есть цепляющее название) и Б (угол подтверждён фактами).
 
-Конкретный факт/имя + разрыв любопытства — **парадоксом или вопросом**, без хвоста `| место, год`:
+Конкретный факт/имя + разрыв любопытства. Три формулы для черновиков:
 
-- «Operation Ajax: How the CIA Toppled Iran and Called It Freedom»
-- «The Lie That Started the Vietnam War»
-- «Why Did a Clerk Hand Stalin the Atomic Bomb?»
-- «How One Man Broke the Bank of England in a Single Night»
-- «Who Killed Three Americans in Tehran — and Why Did the CIA Bury It?»
+1. **Роль + институт** (CIA, FBI, KGB, Mossad…) — узнаваемая сила и человек внутри неё:
+   «The FBI's Star Informant Was Robbing His Own Company» · «Why Did a Clerk Hand Stalin the Atomic Bomb?»
+2. **Число** — только из проверенных фактов разведки, не из карточки и не по памяти:
+   «The CIA Paid Him for Years. Then Sent 27,000 Troops to Arrest Him»
+3. **Поворот «X did Y. Then…»** — вторая половина открывает загадку, а не раскрывает ответ:
+   «The FBI Said He Saved Rajiv Gandhi. Then They Locked Him Up.»
+
+Ещё: «Operation Ajax: How the CIA Toppled Iran and Called It Freedom» · «Who Killed Three Americans in Tehran — and Why Did the CIA Bury It?»
 
 ❌ Академично: `The Blind Man Who Found Adolf Eichmann | Buenos Aires, 1960` · `… | Project IBEX` · `… | George Soros 1992` — дата и справочный хвост съедают видимые знаки и не добавляют интриги.
 

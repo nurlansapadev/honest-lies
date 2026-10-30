@@ -15,6 +15,7 @@
 | 08 | Why Did the Army Give Tours of Its Secret Base Under Greenland? | ~21.10.2026 | | 22:21 | 3 566 | | | |
 | 09 | Why Was a Foreign Government Secretly Trying to Buy a Washington Newspaper? | | | 30:15 | ~4 730 | | | |
 | 10 | How Do You Steal a Stealth Bomber Secret Without Breaking In? | | | 28:34 | 4 583 | | | |
+| 14 | You've Been Told Why It's Called Black Friday. It's Not True. | | | прогноз ~28:50 | 4 615 | | | |
 
 Пустые ячейки — заполнить из журнала Video-Wrapper и YouTube Studio.
 
